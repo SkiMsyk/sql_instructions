@@ -1,0 +1,2 @@
+# sql_instructions
+達人に学ぶSQL徹底指南書第２版の学習用
