@@ -1,0 +1,15 @@
+center,receive_date,material
+tokyo,2018-04-01,tin
+tokyo,2018-04-12,zinc
+tokyo,2018-05-17,aluminum
+tokyo,2018-05-20,zinc
+osaka,2018-04-20,copper
+osaka,2018-04-22,nickel
+osaka,2018-04-29,lead
+nagoya,2018-03-15,titanium
+nagoya,2018-04-01,carbon-steel
+nagoya,2018-04-24,carbon-steel
+nagoya,2018-05-02,magnesium
+nagoya,2018-05-10,titanium
+fukuoka,2018-05-10,zinc
+fukuoka,2018-05-28,tin

@@ -1,0 +1,16 @@
+student_id,class,sex,score
+001,A,male,100
+002,A,female,100
+003,A,female,49
+004,A,male,30
+005,B,female,100
+006,B,male,92
+007,B,male,80
+008,B,male,80
+009,B,female,10
+010,C,male,92
+011,C,male,80
+012,C,female,21
+013,D,female,100
+014,D,female,0
+015,D,female,0

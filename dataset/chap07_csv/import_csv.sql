@@ -1,0 +1,13 @@
+\copy Graduates from Graduates.csv  with csv header
+\copy Materials from Materials.csv  with csv header
+\copy SeqTbl from SeqTbl.csv  with csv header
+\copy Students from Students.csv  with csv header
+\copy TestResults from TestResults.csv  with csv header
+\copy Item from Item.csv  with csv header
+\copy NullTbl from NullTbl.csv  with csv header
+\copy ShopItems from ShopItems.csv  with csv header
+\copy Teams from Teams.csv  with csv header
+\copy case1 from case1.csv  with csv header
+\copy case2 from case2.csv  with csv header
+\copy case3 from case3.csv  with csv header
+\copy case4 from case4.csv  with csv header

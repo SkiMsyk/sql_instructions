@@ -1,0 +1,14 @@
+pref_name,age_class,sex_cd,population
+akita,1,m,400
+akita,3,m,1000
+akita,1,f,800
+akita,3,f,1000
+aomori,1,m,700
+aomori,1,f,500
+aomori,3,f,800
+tokyo,1,m,900
+tokyo,1,f,1500
+tokyo,3,f,1200
+chiba,1,m,900
+chiba,1,f,1000
+chiba,3,f,900
