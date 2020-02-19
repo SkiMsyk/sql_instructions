@@ -70,6 +70,14 @@ create table personnel
 \copy personnel from Personnel.csv  with csv header
 -- 
 -- 
+drop table if exists children;
+create table children 
+(
+    child VARCHAR
+);
+\copy children from Children.csv with csv header
+-- 
+-- 
 drop table if exists tblpop;
 create table tblpop 
 (
@@ -88,6 +96,24 @@ create table items
     item VARCHAR
 );
 \copy items from Items.csv  with csv header
+-- 
+--
+drop table if exists tblage;
+create table tblage
+(
+    age_class int8,
+    age_range VARCHAR
+);
+\copy tblage from TblAge.csv with csv header
+-- 
+-- 
+drop table if exists tblsex;
+create table tblsex
+(
+    sex_cd VARCHAR,
+    sex VARCHAR
+);
+\copy tblsex from TblSex.csv with csv header
 -- 
 -- 
 drop table if exists saleshistory ;
@@ -116,5 +142,14 @@ create table class_b
     name VARCHAR
 );
 \copy class_b from Class_B.csv  with csv header
+-- 
+-- 
+drop table if exists accounts;
+create table accounts 
+(
+    prc_date date,
+    prc_amt real
+);
+\copy accounts from Accounts.csv with csv header
 -- 
 -- 
