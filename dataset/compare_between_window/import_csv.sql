@@ -6,7 +6,7 @@ create table sales
     year int8,
     sale real
 );
-\copy sales from Sales.csv  with csv header
+\copy sales from Sales.csv with csv header
 -- 
 -- 
 drop table if exists sales2;
@@ -15,7 +15,7 @@ create table sales2
     year int8,
     sale real
 );
-\copy sales2 from Sales2.csv  with csv header
+\copy sales2 from Sales2.csv with csv header
 -- 
 -- 
 drop table if exists shohin;
@@ -26,7 +26,7 @@ create table shohin
     shohin_bunrui VARCHAR,
     hanbai_tanka real
 );
-\copy shohin from Shohin.csv  with csv header
+\copy shohin from Shohin.csv with csv header
 -- 
 -- 
 drop table if exists reservations;
@@ -36,7 +36,7 @@ create table reservations
     start_date DATE,
     end_date DATE
 );
-\copy reservations from Reservations.csv  with csv header
+\copy reservations from Reservations.csv with csv header
 -- 
 -- 
 drop table if exists reservations2;
@@ -46,7 +46,7 @@ create table reservations2
     start_date DATE,
     end_date DATE
 );
-\copy reservations2 from Reservations2.csv  with csv header
+\copy reservations2 from Reservations2.csv with csv header
 -- 
 -- 
 drop table if exists courses;
@@ -55,7 +55,7 @@ create table courses
     name VARCHAR,
     course VARCHAR
 );
-\copy courses from Courses.csv  with csv header
+\copy courses from Courses.csv with csv header
 -- 
 -- 
 drop table if exists personnel;
@@ -67,7 +67,7 @@ create table personnel
     child_3 VARCHAR
 
 );
-\copy personnel from Personnel.csv  with csv header
+\copy personnel from Personnel.csv with csv header
 -- 
 -- 
 drop table if exists children;
@@ -86,7 +86,7 @@ create table tblpop
     sex_cd VARCHAR,
     population real
 );
-\copy tblpop from TblPop.csv  with csv header
+\copy tblpop from TblPop.csv with csv header
 -- 
 -- 
 drop table if exists items;
@@ -95,7 +95,7 @@ create table items
     item_no int8,
     item VARCHAR
 );
-\copy items from Items.csv  with csv header
+\copy items from Items.csv with csv header
 -- 
 --
 drop table if exists tblage;
@@ -123,7 +123,7 @@ create table saleshistory
     item_no real,
     quantity int8
 );
-\copy saleshistory from SalesHistory.csv  with csv header
+\copy saleshistory from SalesHistory.csv with csv header
 -- 
 -- 
 drop table if exists class_a;
@@ -132,7 +132,7 @@ create table class_a
     id int8,
     name VARCHAR
 );
-\copy class_a from Class_A.csv  with csv header
+\copy class_a from Class_A.csv with csv header
 -- 
 -- 
 drop table if exists class_b;
@@ -141,7 +141,12 @@ create table class_b
     id int8,
     name VARCHAR
 );
-\copy class_b from Class_B.csv  with csv header
+\copy class_b from Class_B.csv with csv header
+-- 
+-- 
+drop table if exists class_b_ex;
+create table class_b_ex (id int8, name VARCHAR);
+\copy class_b_ex from Class_B_ex.csv with csv header
 -- 
 -- 
 drop table if exists accounts;
